@@ -8,3 +8,4 @@ Host partition Disk 1 is 200 MB reserved for Healthy (EFI System)
 Host partion Disk 1 is labeled 'C:' is set for 930.40 GB of NTFS  
 Host partion Disk 1 is labeled 'Healthy (Recovery Partition) is set for 918 MB  
 VM partition Disk 0 is set for 1863.00 GB NTFS  
+<img width="934" height="592" alt="Screenshot 2026-10-19 190755" src="https://github.com/user-attachments/assets/378888e1-caf8-40d0-834f-42b3e4fe95fa" />
