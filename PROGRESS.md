@@ -47,3 +47,12 @@ assign letter=B
 Exit the utility:
 
 exit
+
+
+Configuration Layer	Action Item for Internal SSD Backups  
+
+The "All-Egg" Risk	An internal backup protects against a C: drive failure or a bad software update, but it does not protect against power surges, physical theft, fire, or ransomware that targets all attached internal drives.  
+
+Separating VM Backups	If you are backing up your virtual machines (V: drive) to your backup drive (B: drive), make sure the VMs are shut down or suspended when Hasleo runs to prevent the virtual disks from corrupting during a live image capture.  
+
+Emergency Rescue Media	Keep a bootable Hasleo WinPE USB flash drive handy. If your main drive fails, you will need to boot to that USB to pull the backup images from your second internal SSD and push them back onto your main drive.  
