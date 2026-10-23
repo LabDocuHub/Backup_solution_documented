@@ -1,12 +1,19 @@
-Using Diskpart in Command Prompt is a reliable way to execute partitioning Disk 0 without running into "unmovable file" limitations often hit in the graphical Disk Management tool.
+Using Diskpart in Command Prompt is a reliable way to execute partitioning Disk 0 without running into "unmovable file" limitations often hit in the graphical Disk Management tool.  
 
-Here is the step-by-step procedure to shrink the V: drive and create partition B:
-Open an Elevated Command Prompt: Press the Windows Key, type cmd, right-click on Command Prompt, and select Run as administrator.
-   Launch Diskpart: Type diskpart and press Enter.
-   Locate my 2 TB SSD: Type list disk and press Enter. Look for the disk number that is roughly 1,863 GB (this is my physical 2 TB drive).
-   Select the Disk: Type select disk X (replace X with my 2 TB disk number, in this case, disk 0 and press Enter.
-   Locate the VM Partition: Type 'list partition' and press Enter to identify my V: drive partition.
-   Select the VM Partition: Type 'select volume 0' and press Enter.
+Here is the step-by-step procedure to shrink the V: drive and create partition B:  
+Open an Elevated Command Prompt:   
+
+   Launch Diskpart: Type 'diskpart' and press Enter. 
+   
+   Locate my 2 TB SSD (disk 0): Type 'list disk' and press Enter. Look for the disk number that is roughly 1,863 GB (this is my physical 2 TB drive).   
+   
+   Select the Disk: Type 'select disk 0' and press Enter.  
+   
+   Locate the virtual machine Partition: Type 'list partition' and press Enter to identify my V: drive partition.
+   Select the VM Partition: 
+   
+   Type 'select volume 0' and press Enter.  
+   
    Shrink the Volume: Since you want the drive to end up at exactly 1,300 GB, you need to shrink it by roughly 560 GB.
    Type the following command to shrink it by exactly 560 GB (573,440 MB) and press Enter:
 
