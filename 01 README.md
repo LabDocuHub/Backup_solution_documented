@@ -1,4 +1,4 @@
-# Step 1. Partitioning Drives  
+# Step 1. Partitioning Secondary SSD  
 
 Current setup is 1 TB SSD drive for host OS named disk 1.  
 On the same motherboard is a 2 TB SSD reserved for virtual machines named disk 0.  
