@@ -3,12 +3,8 @@
 Current setup is 1 TB SSD drive for host OS named disk 1.  
 On the same motherboard is a secondary 2 TB SSD reserved for virtual machines named disk 0. 
 
-Disk 1 is 931.50 GB  
-Disk 0 is 1863.00 GB  
-
-Host Disk 1 has a partion of 200 MB reserved for Healthy (EFI System)  
-Host Disk 1 has a partion 'C:' which is set for 930.40 GB of NTFS  
-Host Disk 1 has a partition labeled 'Healthy (Recovery Partition) which is set for 918 MB   
+Disk 1 is 931.50 GB contains the host (C:\ partition)
+Disk 0 is 1863.00 GB (V:\ partition)
 
 Disk 0 (secondary SSD) is set for 1863.00 GB NTFS and is initially reserved entirely for virtaul machine files. 
 <img width="934" height="592" alt="Screenshot 2026-10-19 190755" src="https://github.com/user-attachments/assets/378888e1-caf8-40d0-834f-42b3e4fe95fa" />
