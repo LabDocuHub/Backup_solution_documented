@@ -1,4 +1,4 @@
-# partitioning_drives_for_personal_computer   
+# Step 1. Partitioning Drives  
 
 Current setup is 1 TB SSD drive for host OS named disk 1.  
 On the same motherboard is a 2 TB SSD reserved for virtual machines named disk 0.  
