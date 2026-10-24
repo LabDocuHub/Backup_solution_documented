@@ -1,3 +1,4 @@
+# What I'm doing  
 # Step 1. Partitioning Secondary SSD  
 
 Current setup is 1 TB SSD drive for host OS named disk 1.  
