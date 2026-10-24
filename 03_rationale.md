@@ -12,11 +12,3 @@ I chose differential backups because they are more stable.
 2) Restoration Errors	The recovery engine only has to stitch two files together: your baseline Full Backup and your chosen Differential snapshot. Fewer moving parts mean fewer opportunities for the software to glitch or mismatch during a critical system recovery.  
 3) Data Integrity	Hasleo uses a built-in feature called VSS (Volume Shadow Copy) to capture the differential block changes. Because Windows pauses write operations cleanly for a fraction of a second, the data being written to Drive B is verified and structurally stable. 
 
-# Important consideration
-
-> Separating VM Backups:	If you are backing up your virtual machines (V: drive) to your backup drive (B: drive), make sure the VMs are shut down or suspended when Hasleo runs to prevent the virtual disks from corrupting during a live image capture.  
-
-> Emergency Rescue Media:	Keep a bootable Hasleo WinPE USB flash drive handy. If your main drive fails, you will need to boot to that USB to pull the backup images from your second internal SSD and push them back onto your main drive. 
-
-> This PC does not employ BitLocker encryption. If I do at some point there would be other considerations in using Hasleo Backup Suite Free V5.9.2.4.
-
