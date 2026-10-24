@@ -8,9 +8,9 @@ I decided to use the SSD I had on my motherboard and backup to the B:\ partition
 
 I chose differential backups because they are more stable.
 
-If last week's backup file gets corrupted or deleted, today's backup still works perfectly. I never lose my entire backup history because of one bad file.  
-Restoration Errors	The recovery engine only has to stitch two files together: your baseline Full Backup and your chosen Differential snapshot. Fewer moving parts mean fewer opportunities for the software to glitch or mismatch during a critical system recovery.  
-Data Integrity	Hasleo uses a built-in feature called VSS (Volume Shadow Copy) to capture the differential block changes. Because Windows pauses write operations cleanly for a fraction of a second, the data being written to Drive B is verified and structurally stable. 
+1) If last week's backup file gets corrupted or deleted, today's backup still works perfectly. I never lose my entire backup history because of one bad file.
+2) Restoration Errors	The recovery engine only has to stitch two files together: your baseline Full Backup and your chosen Differential snapshot. Fewer moving parts mean fewer opportunities for the software to glitch or mismatch during a critical system recovery.  
+3) Data Integrity	Hasleo uses a built-in feature called VSS (Volume Shadow Copy) to capture the differential block changes. Because Windows pauses write operations cleanly for a fraction of a second, the data being written to Drive B is verified and structurally stable. 
 
 # Important consideration
 
