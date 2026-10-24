@@ -1,4 +1,4 @@
-# Rational for doing things this way  
+# Rationale for doing things this way  
 
 Things I considered about internal SSD Backups  
 
