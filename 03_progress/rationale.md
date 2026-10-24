@@ -1,3 +1,5 @@
+# Rational for doing things this way  
+
 Things I considered about internal SSD Backups  
 
 The "All-Egg" Risk:	An internal backup protects against a C: drive failure or a bad software update. That is what I am getting. It does not protect against power surges, physical theft, fire, or ransomware that targets all attached internal drives.  
