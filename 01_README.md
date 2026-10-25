@@ -16,3 +16,10 @@ Considered the top 3 free download software programs and chose Halseo.
 
 <img width="694" height="484" alt="Screenshot 2026-10-25 162850" src="https://github.com/user-attachments/assets/b9274fb1-0e5a-4cb6-a3e9-cc23b6f98902" />
 
+Installed software
+Configured System Backup
+Configured Disk Partion Backup
+
+No Schedule: Both
+Run manually.
+
