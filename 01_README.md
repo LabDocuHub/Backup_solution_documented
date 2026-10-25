@@ -4,8 +4,8 @@
 Current setup is 1 TB SSD drive for host OS named disk 1.  
 On the same motherboard is a secondary 2 TB SSD reserved for virtual machines named disk 0. 
 
-Disk 1 is 931.50 GB contains the host (C:\ partition)
-Disk 0 is 1863.00 GB (V:\ partition)  
+>Disk 1 is 931.50 GB contains the host (C:\ partition)  
+>Disk 0 is 1863.00 GB (V:\ partition)  
 
 Disk 0 (secondary SSD) is set for 1863.00 GB NTFS and is initially reserved entirely for virtaul machine files only.  
 
