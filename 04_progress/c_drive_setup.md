@@ -14,8 +14,11 @@ File Splitting: Automatic
 Image Retention Policy:   
 Full and Differential, and Always, retain the first backup  
 Keep: 3  
-Days: click dropdown carrot, select 'backups'  
-OK  
+Days: click dropdown carrot, select 'backups' 
+
+Advanced: 'Default behavior of the "Backup" button: Differential
+OK
+Save 
 
 Backup scedules: None  
 Proceed  
