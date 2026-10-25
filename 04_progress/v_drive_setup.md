@@ -8,5 +8,13 @@ Select folder
 
 Backup options  
 Compression: Medium  
-Splitting: Automatic  
-Image Retention Policy:  
+Splitting: Automatic 
+Advanced: 'Default behavior of the "Backup" button: Differential OK Save  
+
+Image Retention Policy:
+Select 'Differential' only.
+Select Keep 2
+Select 'Days' dropdown menu and select 'Backups'
+OK
+OK
+Proceed
